@@ -1,0 +1,21 @@
+@import url("main.css");
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    transition: 1s;
+}
+
+.box:hover {
+    width: 300px;
+    background-color: blue;
+}
+
+input {
+
+}
+
+input:focus {
+    background-color: orange;
+}
